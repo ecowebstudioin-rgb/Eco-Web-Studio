@@ -1,0 +1,251 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #f5f5f5;
+}
+
+h1 {
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.start-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.start-btn:hover {
+    opacity: 0.8;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+nav h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav div {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #0077ff;
+}
+
+section {
+    padding: 80px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+#home {
+    padding-top: 100px;
+}
+
+#services div {
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+#contact {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+@media (max-width: 600px) {
+
+    nav {
+        flex-direction: column;
+        padding: 20px;
+        gap: 15px;
+    }
+
+    nav div {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    nav h2 {
+        font-size: 22px;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    section {
+        padding: 60px 15px;
+    }
+
+}
+.hero {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero-small {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin: 10px 0;
+}
+
+.hero h2 {
+    max-width: 700px;
+    margin: 15px 0;
+}
+
+.hero p {
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+.hero .start-btn {
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.hero .start-btn:hover {
+    transform: translateY(-3px);
+    opacity: 0.85;
+}
+
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .hero h2 {
+        font-size: 24px;
+    }
+}
+#services {
+    text-align: center;
+}
+
+#services > h2 {
+    margin-bottom: 40px;
+}
+
+#services > div {
+    transition: 0.3s;
+}
+
+#services > div:hover {
+    transform: translateY(-5px);
+}
+
+#services h3 {
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+#services p {
+    line-height: 1.6;
+}
+form {
+    max-width: 600px;
+    margin: 30px auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input,
+form textarea {
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    background: black;
+    color: white;
+    border-radius: 8px;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    opacity: 0.8;
+}
+footer {
+    margin-top: 50px;
+    padding: 40px 20px;
+    background: #111;
+    color: white;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    color: #ccc;
+    font-size: 14px;
+}
